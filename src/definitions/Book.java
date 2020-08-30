@@ -23,6 +23,11 @@ public class Book {
         this.priceOfBook = priceOfBook;
         this.colorOfBook = colorOfBook;
     }
+    public Book(String bookName, String authorName, String isbn) {
+        this.nameOfBook = bookName;
+        this.nameOfTheAuthor = authorName;
+        this.ISBN = isbn;
+    }
 }
 
 
