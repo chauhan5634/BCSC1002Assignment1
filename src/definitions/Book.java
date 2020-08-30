@@ -16,6 +16,9 @@ public class Book {
     int priceOfBook;
     String colorOfBook;
     Scanner scanner = new Scanner(System.in);
+    public Book() {
+
+    }
 
 }
 
