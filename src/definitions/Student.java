@@ -9,5 +9,7 @@ package definitions;
 import java.util.Scanner;
 
 public class Student {
-
+    private String firstName, middleName, lastName;
+    long universityRollNumber;
+    int numberOfBooksIssued;
 }
