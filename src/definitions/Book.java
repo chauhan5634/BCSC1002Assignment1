@@ -19,7 +19,10 @@ public class Book {
     public Book() {
 
     }
-
+    public Book(int priceOfBook, String colorOfBook) {
+        this.priceOfBook = priceOfBook;
+        this.colorOfBook = colorOfBook;
+    }
 }
 
 
