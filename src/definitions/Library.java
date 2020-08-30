@@ -13,5 +13,15 @@ public class Library {
     int index = -1;
     public Library() {
     }
+    public void setBookInStock(String bookName) {
+        book[++index] = bookName;
+    }
+
+    public String[] getBookInStock() {
+        return book;
+    }
+    public void bookPresent() {
+        System.out.println(getBookInStock());
+    }
 
 }
