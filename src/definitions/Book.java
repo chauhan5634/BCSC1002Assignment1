@@ -60,6 +60,9 @@ public class Book {
     public int hashcode() {
         return priceOfBook + colorOfBook.hashCode();
     }
+    public String toString() {
+        return priceOfBook + " " + colorOfBook;
+    }
 }
 
 
