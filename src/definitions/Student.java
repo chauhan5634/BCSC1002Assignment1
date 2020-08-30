@@ -12,4 +12,5 @@ public class Student {
     private String firstName, middleName, lastName;
     long universityRollNumber;
     int numberOfBooksIssued;
+    Scanner scanner = new Scanner(System.in);
 }
