@@ -23,5 +23,10 @@ public class Student {
     }
     public Student() {
     }
-
+    public Student(String firstName, String middleName, long universityRollNumber, int numberOfBooksIssued) {
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.numberOfBooksIssued = numberOfBooksIssued;
+        this.universityRollNumber = universityRollNumber;
+    }
 }
