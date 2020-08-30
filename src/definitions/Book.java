@@ -63,6 +63,14 @@ public class Book {
     public String toString() {
         return priceOfBook + " " + colorOfBook;
     }
+    public void print() {
+        System.out.println("Enter Book Name");
+        String nameOfBook = scanner.next();
+        System.out.println("Enter the author name");
+        String nameOfTheAuthor = scanner.next();
+        System.out.println("Enter the ISBN number");
+        String ISBN = scanner.next();
+    }
 }
 
 
