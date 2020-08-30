@@ -21,4 +21,7 @@ public class Student {
         System.out.println("Enter your university roll number");
         universityRollNumber = scanner.nextLong();
     }
+    public Student() {
+    }
+
 }
