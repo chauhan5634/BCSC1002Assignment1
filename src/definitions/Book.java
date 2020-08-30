@@ -28,6 +28,35 @@ public class Book {
         this.nameOfTheAuthor = authorName;
         this.ISBN = isbn;
     }
+    public void setnameOfBook(String bookName) {
+        nameOfBook = bookName;
+    }
+
+    public String getnameOfBook() {
+        return nameOfBook;
+    }
+
+    public void setnameOfTheAuthor(String authorName) {
+        nameOfTheAuthor = authorName;
+    }
+
+    public String getnameOfTheAuthor() {
+        return nameOfTheAuthor;
+    }
+
+    public void setISBN(String isbn) {
+        ISBN = isbn;
+    }
+
+    public String getISBN() {
+        return ISBN;
+    }
+    @Override
+    public boolean equals(Object object) {
+        Book that = (Book) object;
+        boolean isEqual = this.priceOfBook == that.priceOfBook && this.colorOfBook == that.colorOfBook;
+        return isEqual;
+    }
 }
 
 
