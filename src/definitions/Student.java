@@ -13,4 +13,12 @@ public class Student {
     long universityRollNumber;
     int numberOfBooksIssued;
     Scanner scanner = new Scanner(System.in);
+    public void print() {
+        System.out.println("Enter your first name");
+        firstName = scanner.next();
+        System.out.println("Enter your middle name");
+        middleName = scanner.next();
+        System.out.println("Enter your university roll number");
+        universityRollNumber = scanner.nextLong();
+    }
 }
