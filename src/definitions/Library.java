@@ -11,4 +11,7 @@ import java.util.SplittableRandom;
 public class Library {
     private String book[] = new String[1000];
     int index = -1;
+    public Library() {
+    }
+
 }
