@@ -31,5 +31,18 @@ public class FrontDesk {
         System.out.println(book2);
         System.out.println(book1.equals(book2));
     }
+        if (number == 2) {
+            Student student = new Student();
+            student.print();
+            System.out.println("Enter Book Name");
+            String nameOfBook = scanner.next();
+            System.out.println("Enter the author name");
+            String nameOfTheAuthor = scanner.next();
+            System.out.println("Enter the ISBN number");
+            String ISBN = scanner.next();
+            Book ob = new Book(nameOfBook, nameOfTheAuthor, ISBN);
+            Library library = new Library();
+            System.out.println("Your Book Returned Successfully" + --numberOfBooksIssued);
+        }
     }
 }
