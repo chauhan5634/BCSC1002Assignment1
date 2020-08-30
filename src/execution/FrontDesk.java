@@ -18,5 +18,18 @@ public class FrontDesk {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number what would you like to do");
         int number = scanner.nextInt();
+    int numberOfBooksIssued = 0;
+        if (number == 1) {
+        Student student = new Student();
+        student.print();
+        Book book = new Book();
+        book.print();
+        System.out.println("Your book Issued Successfully: " + ++numberOfBooksIssued);
+        Book book1 = new Book(750, "blue");
+        Book book2 = new Book(750, "blue");
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(book1.equals(book2));
     }
     }
+}
