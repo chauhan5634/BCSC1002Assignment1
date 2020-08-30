@@ -57,6 +57,9 @@ public class Book {
         boolean isEqual = this.priceOfBook == that.priceOfBook && this.colorOfBook == that.colorOfBook;
         return isEqual;
     }
+    public int hashcode() {
+        return priceOfBook + colorOfBook.hashCode();
+    }
 }
 
 
