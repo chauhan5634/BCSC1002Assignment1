@@ -13,6 +13,7 @@ public class Student {
     long universityRollNumber;
     int numberOfBooksIssued;
     Scanner scanner = new Scanner(System.in);
+
     public void print() {
         System.out.println("Enter your first name");
         firstName = scanner.next();
@@ -21,14 +22,17 @@ public class Student {
         System.out.println("Enter your university roll number");
         universityRollNumber = scanner.nextLong();
     }
+
     public Student() {
     }
+
     public Student(String firstName, String middleName, long universityRollNumber, int numberOfBooksIssued) {
         this.firstName = firstName;
         this.middleName = middleName;
         this.numberOfBooksIssued = numberOfBooksIssued;
         this.universityRollNumber = universityRollNumber;
     }
+
     public String getFirstName() {
         return firstName;
     }
@@ -67,4 +71,4 @@ public class Student {
 
 }
 
-}
+
