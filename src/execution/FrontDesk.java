@@ -57,5 +57,9 @@ public class FrontDesk {
                 student.IssuedBooksNames();
             }
         }
+        if (number == 4) {
+            System.out.println(" Thanks ");
+            System.exit(0);
+        }
     }
 }
